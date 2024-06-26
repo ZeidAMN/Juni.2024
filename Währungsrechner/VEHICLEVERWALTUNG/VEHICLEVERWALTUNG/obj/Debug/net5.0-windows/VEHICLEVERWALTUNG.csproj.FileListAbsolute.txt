@@ -1,0 +1,17 @@
+C:\Users\ThatGuy\source\repos\VEHICLEVERWALTUNG\VEHICLEVERWALTUNG\bin\Debug\net5.0-windows\VEHICLEVERWALTUNG.exe
+C:\Users\ThatGuy\source\repos\VEHICLEVERWALTUNG\VEHICLEVERWALTUNG\bin\Debug\net5.0-windows\VEHICLEVERWALTUNG.deps.json
+C:\Users\ThatGuy\source\repos\VEHICLEVERWALTUNG\VEHICLEVERWALTUNG\bin\Debug\net5.0-windows\VEHICLEVERWALTUNG.runtimeconfig.json
+C:\Users\ThatGuy\source\repos\VEHICLEVERWALTUNG\VEHICLEVERWALTUNG\bin\Debug\net5.0-windows\VEHICLEVERWALTUNG.runtimeconfig.dev.json
+C:\Users\ThatGuy\source\repos\VEHICLEVERWALTUNG\VEHICLEVERWALTUNG\bin\Debug\net5.0-windows\VEHICLEVERWALTUNG.dll
+C:\Users\ThatGuy\source\repos\VEHICLEVERWALTUNG\VEHICLEVERWALTUNG\bin\Debug\net5.0-windows\VEHICLEVERWALTUNG.pdb
+C:\Users\ThatGuy\source\repos\VEHICLEVERWALTUNG\VEHICLEVERWALTUNG\obj\Debug\net5.0-windows\VEHICLEVERWALTUNG.Form1.resources
+C:\Users\ThatGuy\source\repos\VEHICLEVERWALTUNG\VEHICLEVERWALTUNG\obj\Debug\net5.0-windows\VEHICLEVERWALTUNG.csproj.GenerateResource.cache
+C:\Users\ThatGuy\source\repos\VEHICLEVERWALTUNG\VEHICLEVERWALTUNG\obj\Debug\net5.0-windows\VEHICLEVERWALTUNG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ThatGuy\source\repos\VEHICLEVERWALTUNG\VEHICLEVERWALTUNG\obj\Debug\net5.0-windows\VEHICLEVERWALTUNG.AssemblyInfoInputs.cache
+C:\Users\ThatGuy\source\repos\VEHICLEVERWALTUNG\VEHICLEVERWALTUNG\obj\Debug\net5.0-windows\VEHICLEVERWALTUNG.AssemblyInfo.cs
+C:\Users\ThatGuy\source\repos\VEHICLEVERWALTUNG\VEHICLEVERWALTUNG\obj\Debug\net5.0-windows\VEHICLEVERWALTUNG.csproj.CoreCompileInputs.cache
+C:\Users\ThatGuy\source\repos\VEHICLEVERWALTUNG\VEHICLEVERWALTUNG\obj\Debug\net5.0-windows\VEHICLEVERWALTUNG.dll
+C:\Users\ThatGuy\source\repos\VEHICLEVERWALTUNG\VEHICLEVERWALTUNG\obj\Debug\net5.0-windows\refint\VEHICLEVERWALTUNG.dll
+C:\Users\ThatGuy\source\repos\VEHICLEVERWALTUNG\VEHICLEVERWALTUNG\obj\Debug\net5.0-windows\VEHICLEVERWALTUNG.pdb
+C:\Users\ThatGuy\source\repos\VEHICLEVERWALTUNG\VEHICLEVERWALTUNG\obj\Debug\net5.0-windows\VEHICLEVERWALTUNG.genruntimeconfig.cache
+C:\Users\ThatGuy\source\repos\VEHICLEVERWALTUNG\VEHICLEVERWALTUNG\obj\Debug\net5.0-windows\ref\VEHICLEVERWALTUNG.dll

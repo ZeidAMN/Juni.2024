@@ -1,0 +1,16 @@
+C:\Users\FP2402199\source\repos\Währungsrechner\Währungsrechner\bin\Debug\net5.0\Währungsrechner.exe
+C:\Users\FP2402199\source\repos\Währungsrechner\Währungsrechner\bin\Debug\net5.0\Währungsrechner.deps.json
+C:\Users\FP2402199\source\repos\Währungsrechner\Währungsrechner\bin\Debug\net5.0\Währungsrechner.runtimeconfig.json
+C:\Users\FP2402199\source\repos\Währungsrechner\Währungsrechner\bin\Debug\net5.0\Währungsrechner.runtimeconfig.dev.json
+C:\Users\FP2402199\source\repos\Währungsrechner\Währungsrechner\bin\Debug\net5.0\Währungsrechner.dll
+C:\Users\FP2402199\source\repos\Währungsrechner\Währungsrechner\bin\Debug\net5.0\Währungsrechner.pdb
+C:\Users\FP2402199\source\repos\Währungsrechner\Währungsrechner\obj\Debug\net5.0\Währungsrechner.csproj.AssemblyReference.cache
+C:\Users\FP2402199\source\repos\Währungsrechner\Währungsrechner\obj\Debug\net5.0\Währungsrechner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FP2402199\source\repos\Währungsrechner\Währungsrechner\obj\Debug\net5.0\Währungsrechner.AssemblyInfoInputs.cache
+C:\Users\FP2402199\source\repos\Währungsrechner\Währungsrechner\obj\Debug\net5.0\Währungsrechner.AssemblyInfo.cs
+C:\Users\FP2402199\source\repos\Währungsrechner\Währungsrechner\obj\Debug\net5.0\Währungsrechner.csproj.CoreCompileInputs.cache
+C:\Users\FP2402199\source\repos\Währungsrechner\Währungsrechner\obj\Debug\net5.0\Währungsrechner.dll
+C:\Users\FP2402199\source\repos\Währungsrechner\Währungsrechner\obj\Debug\net5.0\refint\Währungsrechner.dll
+C:\Users\FP2402199\source\repos\Währungsrechner\Währungsrechner\obj\Debug\net5.0\Währungsrechner.pdb
+C:\Users\FP2402199\source\repos\Währungsrechner\Währungsrechner\obj\Debug\net5.0\Währungsrechner.genruntimeconfig.cache
+C:\Users\FP2402199\source\repos\Währungsrechner\Währungsrechner\obj\Debug\net5.0\ref\Währungsrechner.dll
