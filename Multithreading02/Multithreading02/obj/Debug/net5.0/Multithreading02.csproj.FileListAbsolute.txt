@@ -1,0 +1,16 @@
+C:\Users\FP2402199\source\repos\Multithreading02\Multithreading02\bin\Debug\net5.0\Multithreading02.exe
+C:\Users\FP2402199\source\repos\Multithreading02\Multithreading02\bin\Debug\net5.0\Multithreading02.deps.json
+C:\Users\FP2402199\source\repos\Multithreading02\Multithreading02\bin\Debug\net5.0\Multithreading02.runtimeconfig.json
+C:\Users\FP2402199\source\repos\Multithreading02\Multithreading02\bin\Debug\net5.0\Multithreading02.runtimeconfig.dev.json
+C:\Users\FP2402199\source\repos\Multithreading02\Multithreading02\bin\Debug\net5.0\Multithreading02.dll
+C:\Users\FP2402199\source\repos\Multithreading02\Multithreading02\bin\Debug\net5.0\Multithreading02.pdb
+C:\Users\FP2402199\source\repos\Multithreading02\Multithreading02\obj\Debug\net5.0\Multithreading02.csproj.AssemblyReference.cache
+C:\Users\FP2402199\source\repos\Multithreading02\Multithreading02\obj\Debug\net5.0\Multithreading02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FP2402199\source\repos\Multithreading02\Multithreading02\obj\Debug\net5.0\Multithreading02.AssemblyInfoInputs.cache
+C:\Users\FP2402199\source\repos\Multithreading02\Multithreading02\obj\Debug\net5.0\Multithreading02.AssemblyInfo.cs
+C:\Users\FP2402199\source\repos\Multithreading02\Multithreading02\obj\Debug\net5.0\Multithreading02.csproj.CoreCompileInputs.cache
+C:\Users\FP2402199\source\repos\Multithreading02\Multithreading02\obj\Debug\net5.0\Multithreading02.dll
+C:\Users\FP2402199\source\repos\Multithreading02\Multithreading02\obj\Debug\net5.0\refint\Multithreading02.dll
+C:\Users\FP2402199\source\repos\Multithreading02\Multithreading02\obj\Debug\net5.0\Multithreading02.pdb
+C:\Users\FP2402199\source\repos\Multithreading02\Multithreading02\obj\Debug\net5.0\Multithreading02.genruntimeconfig.cache
+C:\Users\FP2402199\source\repos\Multithreading02\Multithreading02\obj\Debug\net5.0\ref\Multithreading02.dll

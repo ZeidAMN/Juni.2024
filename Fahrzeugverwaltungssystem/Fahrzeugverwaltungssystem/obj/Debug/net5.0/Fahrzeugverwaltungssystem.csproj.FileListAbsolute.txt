@@ -1,0 +1,5 @@
+C:\Users\FP2402199\source\repos\Fahrzeugverwaltungssystem\Fahrzeugverwaltungssystem\obj\Debug\net5.0\Fahrzeugverwaltungssystem.csproj.AssemblyReference.cache
+C:\Users\FP2402199\source\repos\Fahrzeugverwaltungssystem\Fahrzeugverwaltungssystem\obj\Debug\net5.0\Fahrzeugverwaltungssystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FP2402199\source\repos\Fahrzeugverwaltungssystem\Fahrzeugverwaltungssystem\obj\Debug\net5.0\Fahrzeugverwaltungssystem.AssemblyInfoInputs.cache
+C:\Users\FP2402199\source\repos\Fahrzeugverwaltungssystem\Fahrzeugverwaltungssystem\obj\Debug\net5.0\Fahrzeugverwaltungssystem.AssemblyInfo.cs
+C:\Users\FP2402199\source\repos\Fahrzeugverwaltungssystem\Fahrzeugverwaltungssystem\obj\Debug\net5.0\Fahrzeugverwaltungssystem.csproj.CoreCompileInputs.cache

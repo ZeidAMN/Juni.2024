@@ -1,0 +1,16 @@
+C:\Users\FP2402199\source\repos\Multithreading\Multithreading\bin\Debug\net5.0\Multithreading.exe
+C:\Users\FP2402199\source\repos\Multithreading\Multithreading\bin\Debug\net5.0\Multithreading.deps.json
+C:\Users\FP2402199\source\repos\Multithreading\Multithreading\bin\Debug\net5.0\Multithreading.runtimeconfig.json
+C:\Users\FP2402199\source\repos\Multithreading\Multithreading\bin\Debug\net5.0\Multithreading.runtimeconfig.dev.json
+C:\Users\FP2402199\source\repos\Multithreading\Multithreading\bin\Debug\net5.0\Multithreading.dll
+C:\Users\FP2402199\source\repos\Multithreading\Multithreading\bin\Debug\net5.0\Multithreading.pdb
+C:\Users\FP2402199\source\repos\Multithreading\Multithreading\obj\Debug\net5.0\Multithreading.csproj.AssemblyReference.cache
+C:\Users\FP2402199\source\repos\Multithreading\Multithreading\obj\Debug\net5.0\Multithreading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FP2402199\source\repos\Multithreading\Multithreading\obj\Debug\net5.0\Multithreading.AssemblyInfoInputs.cache
+C:\Users\FP2402199\source\repos\Multithreading\Multithreading\obj\Debug\net5.0\Multithreading.AssemblyInfo.cs
+C:\Users\FP2402199\source\repos\Multithreading\Multithreading\obj\Debug\net5.0\Multithreading.csproj.CoreCompileInputs.cache
+C:\Users\FP2402199\source\repos\Multithreading\Multithreading\obj\Debug\net5.0\Multithreading.dll
+C:\Users\FP2402199\source\repos\Multithreading\Multithreading\obj\Debug\net5.0\refint\Multithreading.dll
+C:\Users\FP2402199\source\repos\Multithreading\Multithreading\obj\Debug\net5.0\Multithreading.pdb
+C:\Users\FP2402199\source\repos\Multithreading\Multithreading\obj\Debug\net5.0\Multithreading.genruntimeconfig.cache
+C:\Users\FP2402199\source\repos\Multithreading\Multithreading\obj\Debug\net5.0\ref\Multithreading.dll
