@@ -1,0 +1,16 @@
+C:\Users\FP2402199\source\repos\Mutex\Mutex\bin\Debug\net5.0\Mutex.exe
+C:\Users\FP2402199\source\repos\Mutex\Mutex\bin\Debug\net5.0\Mutex.deps.json
+C:\Users\FP2402199\source\repos\Mutex\Mutex\bin\Debug\net5.0\Mutex.runtimeconfig.json
+C:\Users\FP2402199\source\repos\Mutex\Mutex\bin\Debug\net5.0\Mutex.runtimeconfig.dev.json
+C:\Users\FP2402199\source\repos\Mutex\Mutex\bin\Debug\net5.0\Mutex.dll
+C:\Users\FP2402199\source\repos\Mutex\Mutex\bin\Debug\net5.0\Mutex.pdb
+C:\Users\FP2402199\source\repos\Mutex\Mutex\obj\Debug\net5.0\Mutex.csproj.AssemblyReference.cache
+C:\Users\FP2402199\source\repos\Mutex\Mutex\obj\Debug\net5.0\Mutex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FP2402199\source\repos\Mutex\Mutex\obj\Debug\net5.0\Mutex.AssemblyInfoInputs.cache
+C:\Users\FP2402199\source\repos\Mutex\Mutex\obj\Debug\net5.0\Mutex.AssemblyInfo.cs
+C:\Users\FP2402199\source\repos\Mutex\Mutex\obj\Debug\net5.0\Mutex.csproj.CoreCompileInputs.cache
+C:\Users\FP2402199\source\repos\Mutex\Mutex\obj\Debug\net5.0\Mutex.dll
+C:\Users\FP2402199\source\repos\Mutex\Mutex\obj\Debug\net5.0\refint\Mutex.dll
+C:\Users\FP2402199\source\repos\Mutex\Mutex\obj\Debug\net5.0\Mutex.pdb
+C:\Users\FP2402199\source\repos\Mutex\Mutex\obj\Debug\net5.0\Mutex.genruntimeconfig.cache
+C:\Users\FP2402199\source\repos\Mutex\Mutex\obj\Debug\net5.0\ref\Mutex.dll

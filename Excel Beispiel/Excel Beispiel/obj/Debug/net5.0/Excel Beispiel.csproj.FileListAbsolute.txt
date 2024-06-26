@@ -1,0 +1,42 @@
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\Excel Beispiel.exe
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\Excel Beispiel.deps.json
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\Excel Beispiel.runtimeconfig.json
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\Excel Beispiel.runtimeconfig.dev.json
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\Excel Beispiel.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\Excel Beispiel.pdb
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\EPPlus.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\EPPlus.Interfaces.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\EPPlus.System.Drawing.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\System.Formats.Asn1.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\System.Text.Json.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\obj\Debug\net5.0\Excel Beispiel.csproj.AssemblyReference.cache
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\obj\Debug\net5.0\Excel Beispiel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\obj\Debug\net5.0\Excel Beispiel.AssemblyInfoInputs.cache
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\obj\Debug\net5.0\Excel Beispiel.AssemblyInfo.cs
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\obj\Debug\net5.0\Excel Beispiel.csproj.CoreCompileInputs.cache
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\obj\Debug\net5.0\Excel Beispiel.csproj.CopyComplete
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\obj\Debug\net5.0\Excel Beispiel.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\obj\Debug\net5.0\refint\Excel Beispiel.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\obj\Debug\net5.0\Excel Beispiel.pdb
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\obj\Debug\net5.0\Excel Beispiel.genruntimeconfig.cache
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\obj\Debug\net5.0\ref\Excel Beispiel.dll
+C:\Users\FP2402199\source\repos\Excel Beispiel\Excel Beispiel\bin\Debug\net5.0\Microsoft.Office.Interop.Excel.dll
