@@ -1,0 +1,87 @@
+﻿@page "/toggle"
+@using System.Threading.Tasks
+@using System.Timers
+
+<div class="toggle-page">
+    <h3> Timer </h3>
+
+    <p>The button is currently: @buttonState</p>
+
+    <button class="btn @ButtonStyle" @onclick="ToggleButton">
+        <span class="oi oi-power" aria-hidden="true"></span> @buttonText
+    </button>
+
+    <button class="btn btn-secondary ms-2" @onclick="ResetTimer">
+        Reset Timer
+    </button>
+
+    <p>Elapsed time: @elapsedTime seconds</p>
+</div>
+
+@code {
+    private bool isOn = false;
+    private Timer timer;
+    private int elapsedTime;
+    private bool timerRunning;
+
+    private string buttonState => isOn ? "ON" : "OFF";
+    private string buttonText => isOn ? "Turn OFF" : "Turn ON";
+    private string ButtonStyle => isOn ? "btn-success" : "btn-primary";
+
+    private async Task ToggleButton()
+    {
+        isOn = !isOn;
+
+        if (isOn)
+        {
+            StartTimer();
+        }
+        else
+        {
+            // Stop the timer if turning off
+            StopTimer();
+        }
+
+        // Optional delay for animation or other async operations
+        await Task.Delay(200);
+    }
+
+    private void StartTimer()
+    {
+        if (!timerRunning)
+        {
+            timer = new Timer(1000); // 1000ms = 1 second
+            timer.Elapsed += TimerElapsed;
+            timer.AutoReset = true;
+            timer.Start();
+            timerRunning = true;
+        }
+    }
+
+    private void StopTimer()
+    {
+        if (timerRunning)
+        {
+            timer?.Stop();
+            timer?.Dispose();
+            timerRunning = false;
+        }
+    }
+
+    private void ResetTimer()
+    {
+        elapsedTime = 0;
+    }
+
+    private void TimerElapsed(object sender, ElapsedEventArgs e)
+    {
+        elapsedTime++;
+        InvokeAsync(StateHasChanged); // Ensure UI update
+    }
+
+    // Dispose of the timer when the component is disposed
+    public void Dispose()
+    {
+        timer?.Dispose();
+    }
+}

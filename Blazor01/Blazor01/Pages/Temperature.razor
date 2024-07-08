@@ -1,0 +1,39 @@
+﻿@page "/temperature"
+
+<PageTitle>Temperature</PageTitle>
+
+<div class="temperature-page">
+    <h3>Temperature</h3>
+
+    <p role="status">Current temperature: @currentTemperature°C</p>
+
+    @if (currentTemperature > 30)
+    {
+        <div class="alert alert-danger">
+            It's so hot outside!
+        </div>
+    }
+    else if (currentTemperature < 3)
+    {
+        <div class="alert alert-primary">
+            It's cold outside!
+        </div>
+    }
+
+    <button class="btn btn-primary" @onclick="IncreaseTemperature">Increase Temperature</button>
+    <button class="btn btn-primary" @onclick="DecreaseTemperature">Decrease Temperature</button>
+</div>
+
+@code {
+    private int currentTemperature = 18; // initial temperature
+
+    private void IncreaseTemperature()       // welche andere @ Elemente gibt es .. switch, for, foreach, while
+    {
+        currentTemperature++;
+    }
+
+    private void DecreaseTemperature()
+    {
+        currentTemperature--;
+    }
+}

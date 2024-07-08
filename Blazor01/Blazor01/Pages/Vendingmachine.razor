@@ -1,0 +1,74 @@
+﻿@page "/vendingmachine"
+
+<PageTitle>Vending-Mashine</PageTitle>
+
+<div class="vending-page">
+<h3>Vending Machine</h3>
+
+<p>Bitte wählen Sie Ihre Getränke und Snacks aus:</p>
+
+@foreach (var item in items)
+{
+    <div class="item">
+        <span>@item.Name - @item.Price €</span>
+        <input type="number" min="0" @bind="item.Quantity" @oninput="CalculateTotal" />
+    </div>
+}
+
+<button @onclick="SelectItems">Auswählen</button>
+
+<p>Gesamtsumme: @totalPrice €</p>
+
+<p>@message</p>
+</div>
+
+@code {
+    private List<VendingItem> items = new List<VendingItem>
+    {
+        new VendingItem { Id = 1, Name = "Cola", Type = ItemType.Drink, Price = 1.5m },
+        new VendingItem { Id = 2, Name = "Sprite", Type = ItemType.Drink, Price = 1.2m },
+        new VendingItem { Id = 3, Name = "Wasser", Type = ItemType.Drink, Price = 0.8m },
+        new VendingItem { Id = 4, Name = "Chips", Type = ItemType.Snack, Price = 1.8m },
+        new VendingItem { Id = 5, Name = "Schokoriegel", Type = ItemType.Snack, Price = 1.2m },
+        new VendingItem { Id = 6, Name = "Nüsse", Type = ItemType.Snack, Price = 1.5m }
+    };
+
+    private decimal totalPrice = 0;
+
+    public enum ItemType
+    {
+        Drink,
+        Snack
+    }
+
+    public class VendingItem
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public ItemType Type { get; set; }
+        public decimal Price { get; set; }
+        public int Quantity { get; set; }
+    }
+
+    private void CalculateTotal()
+    {
+        totalPrice = items.Sum(item => item.Price * item.Quantity);
+    }
+
+    private void SelectItems()
+    {
+        foreach (var item in items)
+        {
+            if (item.Quantity > 0)
+            {
+                string itemType = item.Type == ItemType.Drink ? "Getränk" : "Snack";
+                Console.WriteLine($"Bestellt: {item.Quantity} x {item.Name} ({itemType})");
+                // Hier können Sie die Logik zur Bestellung implementieren
+                // Z.B. Speichern in einer Datenbank oder Bestellungsprozess durchführen
+            }
+        }
+        message = "Bestellung erfolgreich aufgegeben!";
+    }
+
+    private string message;
+}

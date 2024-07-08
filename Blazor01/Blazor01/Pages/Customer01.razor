@@ -1,0 +1,172 @@
+﻿@page "/customer01"
+@using System;
+@using System.Collections.Generic;
+@using System.IO;
+@using System.Text;
+@using Microsoft.JSInterop
+
+<div class="customer-page">
+    <h3>Customer</h3>
+
+    <!-- Dropdown to select existing customers -->
+    <div class="form-group">
+        <label for="customerDropdown">Select Customer:</label>
+        <select id="customerDropdown" @bind="selectedCustomerId" class="form-control">
+            <option value="">Select...</option>
+            @foreach (var customer in customers)
+            {
+                <option value="@customer.id">@customer.name</option>
+            }
+        </select>
+    </div>
+
+    <!-- Or add a new customer -->
+    <h4>Add New Customer</h4>
+    <div class="form-group">
+        <label for="newCustomerName">Name:</label>
+        <input type="text" id="newCustomerName" @bind="newCustomerName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="newCustomerAge">Age:</label>
+        <input type="number" id="newCustomerAge" @bind="newCustomerAge" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="newCustomerAddress">Address:</label>
+        <input type="text" id="newCustomerAddress" @bind="newCustomerAddress" class="form-control" />
+    </div>
+    <button class="btn btn-primary" @onclick="AddCustomer">Add New Customer</button>
+
+    <!-- Button to add selected customer to list -->
+    <button class="btn btn-primary" @onclick="AddCustomerToList">Add Customer</button>
+
+    <table class="table mt-3">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Address</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in selectedCustomers)
+            {
+                <tr>
+                    <td>@customer.name</td>
+                    <td>@customer.age</td>
+                    <td>@customer.address</td>
+                    <td>
+                        <button class="btn btn-danger" @onclick="() => RemoveCustomer(customer)">Remove</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- Download link for customer list -->
+    @if (!string.IsNullOrEmpty(downloadLink))
+    {
+        <div class="mt-3">
+            <a href="@downloadLink" download="customer-list.txt" class="btn btn-primary">Download Customer List</a>
+        </div>
+    }
+</div>
+
+@code {
+    private List<Customer> customers = new List<Customer>
+    {
+        new Customer { id = 1, name = "John Doe", age = 30, address = "123 Main St" },
+        
+    };
+
+    private List<Customer> selectedCustomers = new List<Customer>();
+    private int selectedCustomerId;
+    private string newCustomerName;
+    private int newCustomerAge;
+    private string newCustomerAddress;
+
+    private Customer newCustomer = new Customer();
+    private string downloadLink = string.Empty;
+
+    // Inject IJSRuntime for JavaScript interop
+    [Inject]
+    private IJSRuntime JS { get; set; }
+
+    // OnInitialized lifecycle method
+    protected override async Task OnInitializedAsync()
+    {
+        await GenerateDownloadLink();
+    }
+
+    // Method to generate download link for customer list
+    private async Task GenerateDownloadLink()
+    {
+        try
+        {
+            // Create a memory stream to write the file content
+            using (MemoryStream ms = new MemoryStream())
+            {
+                using (StreamWriter writer = new StreamWriter(ms, Encoding.UTF8))
+                {
+                    foreach (var customer in customers)
+                    {
+                        await writer.WriteLineAsync($"{customer.name}, {customer.age}, {customer.address}");
+                    }
+                    await writer.FlushAsync();
+                    ms.Seek(0, SeekOrigin.Begin);
+
+                    // Convert the memory stream to a base64 string
+                    var bytes = ms.ToArray();
+                    var base64 = Convert.ToBase64String(bytes);
+
+                    // Create a data URL link
+                    downloadLink = $"data:text/plain;base64,{base64}";
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error generating download link: {ex.Message}");
+        }
+    }
+
+    private void AddCustomerToList()
+    {
+        var selectedCustomer = customers.FirstOrDefault(c => c.id == selectedCustomerId);
+        if (selectedCustomer != null && !selectedCustomers.Contains(selectedCustomer))
+        {
+            selectedCustomers.Add(selectedCustomer);
+        }
+    }
+
+    private void AddCustomer()
+    {
+        if (!string.IsNullOrEmpty(newCustomerName) && newCustomerAge > 0 && !string.IsNullOrEmpty(newCustomerAddress))
+        {
+            var newCustomerId = customers.Count + 1; // Generate a new ID (in a real app, you might use a database-generated ID)
+            var newCustomer = new Customer { id = newCustomerId, name = newCustomerName, age = newCustomerAge, address = newCustomerAddress };
+            customers.Add(newCustomer);
+            selectedCustomers.Add(newCustomer); // Automatically add new customer to selected list
+
+            // Update download link after adding new customer
+            GenerateDownloadLink(); // Refresh download link
+                                    // Clear fields after adding
+            newCustomerName = "";
+            newCustomerAge = 0;
+            newCustomerAddress = "";
+        }
+    }
+
+    private void RemoveCustomer(Customer customer)
+    {
+        selectedCustomers.Remove(customer);
+    }
+
+    public class Customer
+    {
+        public int id { get; set; }
+        public string name { get; set; }
+        public int age { get; set; }
+        public string address { get; set; }
+    }
+}

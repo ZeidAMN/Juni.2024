@@ -1,0 +1,62 @@
+﻿@page "/radiobutton01"
+
+<h3 class="text-center mb-4">Choose Your Favorite Language</h3>
+
+<div class="radiobutton01-page">
+    @foreach (var language in languages)
+    {
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" id="@language.Id" name="language" value="@language.Id" @onchange="() => SelectLanguage(language.Id)" checked="@IsLanguageSelected(language.Id)" />
+            <label class="form-check-label" for="@language.Id">@language.Name</label>
+        </div>
+    }
+</div>
+
+<div class="container mt-3">
+    <button class="btn btn-primary" @onclick="ShowSelectedLanguageImage">Favorite Language</button>
+</div>
+
+@code {
+    private List<Language> languages = new List<Language>
+    {
+        new Language { Id = 1, Name = "C#", ImageUrl = "https://media.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F611fmx7e3ly1pb1mv12x.png" },
+        new Language { Id = 2, Name = "JavaScript", ImageUrl = "https://thumbs.dreamstime.com/b/hello-world-javascript-programming-language-hello-world-code-hello-world-code-written-javascript-programming-language-syntax-248663704.jpg" },
+        new Language { Id = 3, Name = "Python", ImageUrl = "https://howtodoinjava.com/wp-content/uploads/2020/07/Python-Hello-world-program.png" },
+        new Language { Id = 4, Name = "Java", ImageUrl = "https://static.javatpoint.com/images/simpleprogram.jpg" }
+    };
+
+    private Language selectedLanguage;
+    private bool showImage = false;
+
+    [Inject]
+    private IJSRuntime js { get; set; }
+
+    // Optional: Initialize default selection
+    protected override void OnInitialized()
+    {
+        selectedLanguage = languages.First(); // Default to the first language in the list
+    }
+
+    private bool IsLanguageSelected(int languageId)
+    {
+        return selectedLanguage.Id == languageId;
+    }
+
+    private void SelectLanguage(int languageId)
+    {
+        selectedLanguage = languages.FirstOrDefault(l => l.Id == languageId);
+    }
+
+    private async Task ShowSelectedLanguageImage()
+    {
+        showImage = true;
+        await js.InvokeAsync<object>("open", selectedLanguage.ImageUrl, "_blank");
+    }
+
+    public class Language
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string ImageUrl { get; set; }
+    }
+}
